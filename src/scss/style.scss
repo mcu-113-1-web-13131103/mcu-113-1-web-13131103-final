@@ -1,5 +1,5 @@
 @import "./nav";
-:root  {
+:root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(58, 169, 180);
 
@@ -18,4 +18,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.wrapper {
+  padding-inline: 10vw;
+
+  .home-box {
+    height: 100vh;
+    min-height: 700px;
+  }
+
+  .section {
+    padding-block: 6em;
+    min-height: 700px;
+  }
 }
