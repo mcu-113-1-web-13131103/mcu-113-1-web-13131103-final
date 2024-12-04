@@ -69,9 +69,12 @@
     width: 380px;
     margin: 0 auto;
     overflow: hidden;
+    border-radius: 50%;
 
     img {
       width: 380px;
+      height: 380px;
+      object-fit: cover;
     }
   }
 }
