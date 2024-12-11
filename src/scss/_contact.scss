@@ -30,6 +30,10 @@
     i {
       font-size: 18px;
     }
+
+    &:hover {
+      color: var(--text-color);
+    }
   }
 
   .form {
@@ -60,6 +64,11 @@
       width: fit-content;
       background-color: var(--second-color);
       color: var(--white-color);
+      transition: 0.4s;
+
+      &:hover {
+        background-color: var(--second-color-hover);
+      }
 
       i {
         font-size: 18px;
