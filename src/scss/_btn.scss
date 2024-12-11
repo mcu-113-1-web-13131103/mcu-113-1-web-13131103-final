@@ -5,6 +5,7 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.4s;
 
   &:hover {
     background-color: var(--second-color);
